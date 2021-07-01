@@ -138,7 +138,7 @@ RUN set -ex; \
                 /etc/mysql/mariadb.cnf; fi
 
 
-VOLUME /var/lib/mysql
+#VOLUME /var/lib/mysql
 
 COPY docker-entrypoint.sh /usr/local/bin/
 RUN ln -s usr/local/bin/docker-entrypoint.sh / # backwards compat
