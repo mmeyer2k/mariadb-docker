@@ -1,12 +1,13 @@
 ```
-This is a fork of mariadb-docker which DOES NOT USE VOLUMES. Use this to store database data in the image layer.
+This is a fork of mariadb-docker which DOES NOT USE VOLUMES. 
+Use this to store database data in the image layer.
 
 Available images:
-docker pull mmeyer2k/mariadb-docker:10.1
 docker pull mmeyer2k/mariadb-docker:10.2
 docker pull mmeyer2k/mariadb-docker:10.3
 docker pull mmeyer2k/mariadb-docker:10.4
 docker pull mmeyer2k/mariadb-docker:10.5
+docker pull mmeyer2k/mariadb-docker:10.6
 ```
 
 # Docker Library Official Image for MariaDB
